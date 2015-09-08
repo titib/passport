@@ -34,8 +34,8 @@ defmodule Passport.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-     [{:phoenix, "~> 0.11"},
-     {:phoenix_ecto, "~> 0.2"},
+     [{:phoenix, ">= 1.0.0"},
+     {:phoenix_ecto, ">= 1.1"},
      {:comeonin, "~> 1.0"},
      {:postgrex, ">= 0.0.0"},
      {:excoveralls, "~> 0.3.10", only: [:dev, :test]},
